@@ -1,0 +1,232 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #4E8098;
+} 
+
+#container {
+    text-align: center;
+}
+
+.takeaway-img {
+    height: 200px;
+    width: 450px;
+    margin: auto;
+    background: url('/images/stu-moffat-iuG0jujvkyk-unsplash.jpg') no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.menu-item {
+    height: 80px;
+    width: 450px;
+    padding: 35px;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.menu-description-container {
+    text-align: left;
+}
+
+
+.emoji-container {
+    width: 50px;
+}
+
+.emoji {
+    font-size: 60px;
+    margin-top: 30px;
+}
+
+
+.item-name, 
+.item-price {
+    font-size: 20px;
+    font-family: 'Smythe', sans-serif;
+}
+
+.item-ingredients {
+    font-size: 15px;
+    color: #DEDEDE;
+    font-family: 'Smythe', sans-serif;
+}
+
+
+.divider {
+    width: 450px; /* Set the width of the divider */
+    margin: 0 auto; /* Center the divider horizontally */
+    border: none; /* Remove default border */
+    border-top: 1px solid #DEDEDE; /* Set the style of the divider */
+}
+
+#item-btn {
+    background-color: white;
+    border: solid 2px #DEDEDE;
+    border-radius: 60%;
+    height: 40px;
+    width: 40px;
+   
+}
+
+#item-btn:focus {
+    outline: none;
+}
+
+.left-container {
+    width: 250px;
+    display: flex;
+    gap: 50px;
+}
+
+.right-container {
+    margin-right: 40px;
+    margin-bottom: 50px;
+    }
+
+#your-order-container {
+    margin: auto;
+    margin-top: 20px;
+    width: 450px;
+    text-align: center;
+}
+
+#your-order-prices {
+    border-bottom: solid 2px black;
+    padding-bottom: 10px;
+}
+
+#basket-item {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#basket-item p {
+    margin: 0; 
+    padding: 0; 
+}
+
+
+#total-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.remove-btn {
+    border: none;
+    background-color: #4E8098;
+    cursor: pointer;
+    color: #BBBBBB;
+    float: left; 
+}
+
+.remove-btn:focus {
+    outline: none;
+}
+
+.item-details {
+    display: flex;
+}
+
+.no-display {
+    display: none;
+}
+
+
+#complete-order-btn {
+    border: none;
+    color: white;
+    background-color:  #16DB99;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+.modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 420px;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 2px #666;
+    background-color: #212529;
+    color: whitesmoke;
+}
+
+
+#payment-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 20px;
+    text-align: center
+}
+
+#payment-list li {
+    margin: 15px;
+    padding: 15px;
+}
+
+.thank-you-msg {
+    color: lightgreen;
+    font-size: 25px;
+    font-family: 'Smythe', sans-serif;
+}
+
+#payment-btn {
+    width: 230px;
+    padding: 10px;
+    border: none;
+    background-color: #16DB99;
+    cursor: pointer;
+    height: 40px;
+}
+
+
+.modal-inner-loading{
+    text-align: center;
+    background-color: #212529;
+}
+
+#confirmationText {
+    font-size: 40px;
+    color: white;
+    font-family: 'Smythe';
+}
+
+.loading{
+    margin-top: 250px;
+    height: 200px;
+    width: 100%; 
+    margin-top: 10px;
+}
+
+
+.form-input {
+    padding: 10px;
+    height: 40px;
+    width: 215px;
+    border: solid 4px gray;
+}
+
+
+.form-input:focus {
+    outline-color:#16DB99;
+}
+
+#payment-form-title {
+    font-size: 30px;
+    font-family: 'Smythe', sans-serif;
+}
+
